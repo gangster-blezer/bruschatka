@@ -8,6 +8,7 @@
 	<title></title>
 </head>
 <body>
+	
 	<aside class="filter filter-close">
 		<div class="radiobtns contaner-center">
 			<div class="radio-btn">
@@ -22,11 +23,11 @@
 		</div>
 		<div class="finde-price contaner-center">
 			<p class="sub-zag">Цена</p>
-			<input type="range" min="0" max="100" step="1" value="50">
+			<input type="range" id="price-range" min="0" max="100" step="1" value="20">
 			<div class="num-box">
-				<input type="number" value="13" class="num-input">
+				<input type="number" id="price-min" value="0" class="num-input">
 				-
-				<input type="number" value="20" class="num-input">
+				<input type="number" id="price-max" value="20" class="num-input">
 			</div>
 			<button class="viteb-btn">Сбросить</button>
 		</div>
@@ -45,7 +46,7 @@
 	</aside>
 	<script src="filter.js"></script>
 	<main class="main">
-		<button class="filterbtn" onclick="menu('filter','filter-open','filter-close')">+</button>
+		<button class="filterbtn" onclick="menu('filter','filter-open','filter-close')"></button>
 		<div class="cat-items">
 			<h1 style="width: 100%;">Плитка тротуарная</h1>
 			<a class="item" href="/">
