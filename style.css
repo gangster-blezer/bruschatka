@@ -56,15 +56,29 @@
 	text-align: center;
 }
 
+.about-contaner{
+	width: 200px;
+}
+
+.about-contaner>p{
+	text-align: center;
+}
+
 .about-item{
-	background-image: url(img/about/1.svg);
-	background-repeat: no-repeat;
-	background-size: 120px 120px;
-	background-position: center;
-	width: 140px;
-	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
 	border-radius: 200px;
-	border: 4px solid #B4251D;
+	background-color: #B4251D;
+}
+
+.about-item>img{
+	width: 64px;
+	height: 64px;
 }
 
 @media (max-width: 1000px) {
