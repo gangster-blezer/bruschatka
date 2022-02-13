@@ -1,5 +1,6 @@
 body{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .main{
@@ -39,8 +40,13 @@ body{
 }
 
 .contaner-center{
-  width: 240px;
   margin-right: auto;
+  margin-left: auto;
+}
+
+.contaner-center-new{
+  width: 240px;
+  margin-bottom: auto;
   margin-left: auto;
 }
 
@@ -65,6 +71,10 @@ body{
 
 p{
   text-align: center;
+}
+
+.cat-zag{
+  width: 100%;
 }
 
 .cat-items{
@@ -198,5 +208,9 @@ input[type=range]  {
 @media (max-width: 479px) {
   .cat-items{
     justify-content: center;
+  }
+
+  .cat-zag{
+    text-align: center;
   }
 }
