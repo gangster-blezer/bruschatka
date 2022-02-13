@@ -56,6 +56,21 @@
 	text-align: center;
 }
 
+.about-us{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.about-us-items{
+	width: 80%;
+	max-width: 799px;
+	min-width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 .about-contaner{
 	width: 200px;
 }
@@ -91,5 +106,13 @@
 	.catalog-icon{
 	width: calc((100vw / 2 - 30px) * 0.6);
 	height: calc((100vw / 2 - 30px) * 0.6);
+	}
+}
+
+@media (max-width: 401px) {
+	.about-us-items{
+		width: 80%;
+		min-width: 200px;
+		justify-content: center;
 	}
 }
