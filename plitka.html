@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="plitka.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<title></title>
+</head>
+<body>
+	<header class="header">
+		<div class="header-contaner">
+			<div class="menu-btn" id="mobile-menu"><span></span></div>
+			<nav class="header-nav">
+			<a href="index.html"><img src="img/Logo.svg" alt="" class="logo"></a>
+			<a href="/" class="header-nav-itm">О КОМПАНИИ</a>
+			<a href="catalog.html" class="header-nav-itm">КАТАЛОГ</a>
+			<a href="/" class="header-nav-itm">ГАЛЕРЕЯ</a>
+			<a href="/" class="header-nav-itm">ПОЛЕЗНОЕ</a>
+			<a href="/" class="header-nav-itm">АКЦИЙ</a>
+			<a href="/" class="header-nav-itm">КОНТАКТЫ</a>
+		</nav>
+		<div class="header-info">
+			<a href="tel:+375 29 510 11 66" class="tel">
+			<img src="img/phone-call.svg" alt="" class="phone-icon">
+			<p>+375 29 510 11 66</p>
+		</a>
+		<a href="/" class="cart">
+			<img src="img/shopping-cart.svg" alt="" class="cart-icon">
+			<p>Заказ</p>
+		</a>
+		</div>
+		</div>
+	</header>
+	<div class="mobile-menu menu-close">
+		<div class="mobile-menu-nav">
+			<ul class="mobile-list">
+				<li class="mobile-itm"><a href="/">О КОМПАНИИ</a></li>
+				<li class="mobile-itm"><a href="catalog.html">КАТАЛОГ</a></li>
+				<li class="mobile-itm"><a href="/">ГАЛЕРЕЯ</a></li>
+				<li class="mobile-itm"><a href="/">ПОЛЕЗНОЕ</a></li>
+				<li class="mobile-itm"><a href="/">АКЦИЙ</a></li>
+				<li class="mobile-itm"><a href="/">КОНТАКТЫ</a></li>
+			</ul>
+			<div class="soc-mobile contaner-center">
+				<img src="img/telegram-app.svg" alt="" class="icon">
+				<img src="img/whatsapp.svg" alt="" class="icon">
+				<img src="img/viber.svg" alt="" class="icon">
+			</div>
+		</div>
+	</div>
+	<div class="overlay overlay-close">
+	</div>
+	<script src="menu.js"></script>
+	<aside class="filter filter-close">
+		<div class="radiobtns contaner-center">
+			<div class="radio-btn">
+				<input type="radio" id="radioButton1" name="groupSelect"><p>Плитка тротуарная</p>
+			</div>
+			<div class="radio-btn">
+				<input type="radio" id="radioButton2" name="groupSelect"><p>Фасадные панели</p>
+			</div>
+			<div class="radio-btn">
+				<input type="radio" id="radioButton3" name="groupSelect"><p>Мелочи для работ с бетоном</p>
+			</div>
+		</div>
+		<div class="finde-price contaner-center">
+			<p class="sub-zag">Цена</p>
+			<input type="range" id="price-range" min="0" max="100" step="1" value="20">
+			<div class="num-box">
+				<input type="number" id="price-min" value="0" class="num-input">
+				-
+				<input type="number" id="price-max" value="20" class="num-input">
+			</div>
+			<button class="viteb-btn" style="margin-bottom: 10px;">Сбросить</button>
+			<button class="viteb-btn">Приминить</button>
+		</div>
+		<div class="sales contaner-center">
+			<p class="sub-zag">Акции</p>
+			<p style="color:#B4251D">05.10.2021 - 31.12.2021</p>
+			<p>Скидка 13% на немецкие облицовочные панели Zierer</p>
+			<button class="viteb-btn">Все акции</button>
+		</div>
+
+		<a href="" class="price-list contaner-center">
+			<img src="img/price-list.png" alt="">
+			<span class="sub-zag">Скачать прайс лист</span>
+		</a>
+
+	</aside>
+	<main class="main">
+		<button class="filterbtn" id="filter_btn"></button>
+		<div class="cat-items">
+			<p><a href="index.html" class="visitedurl">Главная</a> - <a href="catalog/catalog.html" class="visitedurl">Каталог</a> - <a class="standarturl">Плитка тротуарная</a></p>
+			<h1 style="width: 100%; margin-top: 10px;">Плитка тротуарная</h1>
+			<a class="item" href="/">
+				<img class="item-img" src="img/catalog/plitka/1.png" alt="">
+				<span class="sub-litle">Тротуарная плитка кирпичик 6</span>
+				<span class="sub-litle blod-txt">Цена: от 19 руб</span>
+				<button class="viteb-btn">ПОДРОБНЕЕ</button>
+			</a>
+
+			<div class="item">
+				<img class="item-img" src="img/catalog/plitka/2.png" alt="">
+				<span class="sub-litle">Тротуарная плитка кирпичик 6</span>
+				<span class="sub-litle blod-txt">Цена: от 19 руб</span>
+				<button class="viteb-btn">ПОДРОБНЕЕ</button>
+			</div>
+
+			<div class="item">
+				<img class="item-img" src="img/catalog/plitka/3.png" alt="">
+				<span class="sub-litle">Тротуарная плитка кирпичик 6</span>
+				<span class="sub-litle blod-txt">Цена: от 19 руб</span>
+				<button class="viteb-btn">ПОДРОБНЕЕ</button>
+			</div>
+
+			<div class="item">
+				<img class="item-img" src="img/catalog/plitka/4.png" alt="">
+				<span class="sub-litle">Тротуарная плитка кирпичик 6</span>
+				<span class="sub-litle blod-txt">Цена: от 19 руб</span>
+				<button class="viteb-btn">ПОДРОБНЕЕ</button>
+			</div>
+		</div>
+	</main>
+	<script src="filter.js"></script>
+</body>
+</html>
