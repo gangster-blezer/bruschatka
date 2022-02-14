@@ -46,7 +46,7 @@ body{
 
 .contaner-center-new{
   width: 240px;
-  margin-bottom: auto;
+  margin-right: auto;
   margin-left: auto;
 }
 
@@ -197,11 +197,11 @@ input[type=range]  {
 
 @media (max-width: 600px) {
   .cat-items{
-    width: 100%
+    width: 100%;
   }
 
   .filter{
-    width: 100%
+    width: 100%;
   }
 }
 
